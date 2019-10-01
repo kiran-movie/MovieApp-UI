@@ -1,0 +1,22 @@
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgba(12, 2, 2, 0.89);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 150%;
+    background-color:lightblue;
+  }
+
+  .round1 {
+    border: 2px solid rgb(9, 20, 8);
+    border-radius: 5px;
+    font-size:16pt;
+    
+    /* //margin-right: 35px */
+  }
+
+  .button {
+    margin-right: 10px;
+    font-size: 70%;
+  }

@@ -1,0 +1,21 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+<div class="center"><br><br>
+
+  User Name : <input type="text" name="name" formControlName="email" placeholder="abc@gmail.com" class="round1"/><br><br>
+  
+  <!-- <div *ngIf="loginForm.controls.username.errors.required">username is required</div> -->
+  Password  : <input type="text" name="name" formControlName="password" placeholder="Password" class="round1"/> <br><br>
+  <!-- <div *ngIf="loginForm.controls.password.errors.required">password is required</div> -->
+  
+
+  <!-- <pre>{{ loginForm?.value | json }}</pre> -->
+
+ 
+  <button class="button" type="submit">Submit</button>  <button class="button" (click)="onReset()">Reset</button> 
+   <div *ngIf="submitted"><p>{{ loginResult }}</p></div>
+
+  <p>
+  click here for <a href="register">Register</a> 
+</p>
+</div>
+</form>
