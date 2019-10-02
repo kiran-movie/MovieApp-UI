@@ -82,6 +82,7 @@ input[type="text"] {
     cursor: pointer;
     font-size: 16x;
     padding: 10px;
+    
 }
 .topnav .search-container button{
     width: auto;

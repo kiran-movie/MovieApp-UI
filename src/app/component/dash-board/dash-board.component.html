@@ -7,8 +7,8 @@
     <a href="#home">Home</a>
     <a href="#contact">Contact</a>
     <div class="search-container">
-      <input type="text" placeholder="Search.."  name="search">
-      <button (click)="onSearch($event)">Search</button>
+      <input type="text" placeholder="Search.." [formControl]="searchValue"  name="search">
+      <button (click)="onSearch()">Search</button>
     </div>
     <!-- <a href="#services">Services</a> -->
     <!-- <div class="search-container">

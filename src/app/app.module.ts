@@ -12,6 +12,7 @@ import { RouterModule } from '@angular/router';
 import { UserListComponent } from './component/user-list/user-list.component';
 import { UserService } from 'src/app/services/user.service';
 import { DashBoardComponent } from './component/dash-board/dash-board.component';
+import { HomePageComponent } from './component/home-page/home-page.component';
 
 
 @NgModule({
@@ -21,7 +22,9 @@ import { DashBoardComponent } from './component/dash-board/dash-board.component'
     RegisterComponent,
     UserListComponent,
     DashBoardComponent,
-    DashBoardComponent
+    DashBoardComponent,
+    HomePageComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,

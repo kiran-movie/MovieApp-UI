@@ -1,0 +1,12 @@
+<p>
+  home-page works!
+</p>
+<div>
+    <app-dash-board (movies)="moviesList($event)"> </app-dash-board>
+    <div>
+      <tr *ngFor="let movie of movies">
+        <td> {{ movie.original_title }} </td>
+      </tr>
+    </div>
+   
+</div>
